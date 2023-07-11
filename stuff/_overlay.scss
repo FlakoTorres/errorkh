@@ -2,13 +2,8 @@
 
 .app-3xd6d0::before, .app-3xd6d0::after, .app-2CXKsg::after, .app-2CXKsg::before, .layers-OrUESM::before, .layers-OrUESM::after, .app-3xd6d0::before, .bg-1QIAus::after, .bg-1QIAus::before { content: ""; position: fixed; z-index: 1; pointer-events: none;}
 
-.app-3xd6d0 { // Yellow stripes
-    &::before { left: 0; top: 0; width: 250px; height: 250px; background: url('https://i.imgur.com/jTpFJuI.png') no-repeat; background-size: 100%;}
-    &::after { z-index: 0; left: 50px; bottom: 0; width: 490px; height: 40px; background: url('https://i.imgur.com/KQQWcTY.png') no-repeat; background-size: 100%;}
-}
-
-.app-2CXKsg { // LilyPichu flower
-    &::before { top: 80px; right: 116px;width: 200px; height: 120px;background: url('https://i.imgur.com/0nsnP69.png') no-repeat; background-size: 100%;}
+.app-2CXKsg { // Dream Eater
+    &::before { top: 80px; right: 116px;width: 200px; height: 120px;background: url('https://kh.wiki.gallery/images/b/bc/Symbol_-_Dream_Eater_%28Spirit%29.png') no-repeat; background-size: 100%;}
 
     // Other flowers
     &::after { bottom: 20px; right: 45%; width: 40px; height: 40px; background: url('https://i.imgur.com/OBSWYht.png'); background-size: 100%;}
